@@ -1,4 +1,4 @@
-# BumbleBee
+# BumbleBee Honey Shop
 
 ![bumblebee1](https://github.com/ferencfeher38/BumbleBee/assets/71189300/1d065f3b-60d6-4601-9936-b6c6e32db039)
 ![bumblebee2](https://github.com/ferencfeher38/BumbleBee/assets/71189300/e2275671-b663-4290-9a27-a234641aff44)
