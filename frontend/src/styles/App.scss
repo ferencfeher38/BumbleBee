@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+.app-container {
+  height: 100vh;
+  background: url(../../public/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.login-wrapper img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  max-width: 550px;
+}
+
+.app-title {
+  z-index: 1;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.logout {
+  cursor: pointer;
+  border: none;
+  font-size: 1.25rem;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffce31;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+}
+
+.logout:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1450px) {
+  .app-container {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .app-container {
+    height: 200vh;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .app-container {
+    height: 290vh;
+  }
+}

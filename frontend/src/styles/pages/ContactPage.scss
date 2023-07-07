@@ -1,0 +1,35 @@
+.contact-container {
+  height: 100vh;
+}
+
+.contact-container button {
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffce31;
+  border: none;
+}
+
+.contact-container button:hover {
+  opacity: 0.8;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-container form input,
+textarea {
+  padding: 5px;
+  width: 300px;
+}
+
+.contact-container form textarea {
+  height: 200px;
+}

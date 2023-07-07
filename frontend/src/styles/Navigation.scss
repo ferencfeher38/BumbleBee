@@ -1,0 +1,50 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  background-color: white;
+  height: 4.5rem;
+  position: fixed !important;
+  z-index: 2;
+  width: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(30, 27, 21, 0.1),
+    3px 0px 6px 0px rgba(30, 27, 21, 0.1),
+    11px 0px 11px 0px rgba(30, 27, 21, 0.09),
+    25px 0px 15px 0px rgba(30, 27, 21, 0.05),
+    45px 0px 18px 0px rgba(30, 27, 21, 0.01),
+    70px 0px 20px 0px rgba(30, 27, 21, 0);
+  font-family: "Poppins", sans-serif !important;
+}
+
+.navbar-expand-lg {
+  justify-content: center;
+}
+
+.container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  color: #e3a300 !important;
+  font-weight: 400;
+  font-size: 2rem !important;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+  color: #e3a300 !important;
+  text-decoration: none !important;
+}
+
+.nav-link {
+  font-size: 1.15rem !important;
+  color: black !important;
+}
+
+.nav-link:hover {
+  text-decoration: 3px #e3a300 underline !important;
+  color: black !important;
+}

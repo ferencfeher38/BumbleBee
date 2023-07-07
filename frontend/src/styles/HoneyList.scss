@@ -1,0 +1,78 @@
+.honey-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.honey-list-container-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.honey-list-container-title {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #e3a300;
+}
+
+.honey-list-container-list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.honey-list-type-name {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #e3a300;
+}
+
+.honey-list-container-list-card .honey-list-image {
+  position: relative;
+  max-width: 250px;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+
+.honey-list-container-list-card button {
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffce31;
+  border: none;
+}
+
+.honey-list-container-list-card button:hover {
+  opacity: 0.8;
+}
+
+.go-to-cart {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffce31;
+  border: none;
+  color: black;
+  margin-top: 30px;
+}
+
+.go-to-cart:hover {
+  opacity: 0.8;
+}

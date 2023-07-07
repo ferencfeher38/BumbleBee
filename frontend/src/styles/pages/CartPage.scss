@@ -1,0 +1,17 @@
+.back-button {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffce31;
+  border: none;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}

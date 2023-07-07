@@ -1,0 +1,39 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 1;
+  margin-top: 225px;
+}
+
+.login-form-title {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  color: #ffce31;
+}
+
+.login-form-container input {
+  padding: 5px;
+  font-size: 1.05rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form-container button {
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffce31;
+  border: none;
+}
+
+.login-form-container button:hover {
+  opacity: 0.8;
+}
